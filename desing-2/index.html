@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Templats</title>
+		<link rel="stylesheet" type="text/css" href="datas/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="datas/css/styles.css">
+		<style type="text/css">
+			.dropdown:hover .dropdown-menu {
+			    display: block;
+			    margin-top: 0; // remove the gap so it doesn't close
+			 }
+		</style>
+</head>
+<body>    
+	<nav class="navbar navbar-default navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">SmartHouse</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Action</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Another action</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>                
+							<li><a href="#">Shoping</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">News-1</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">News-2</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">One more separated link</a></li>
+							<li role="separator" class="divider"></li>                
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Support</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Another action</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Something else here</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Nav header</li>
+							<li><a href="#">Separated link</a></li>
+							<li><a href="#">One more separated link</a></li>
+						</ul>
+					</li>
+					<li><a href="#contact">Contact</a></li>                 
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="../navbar/">Default</a></li>
+					<li><a href="#"><i class="glyphicon glyphicon-shopping-cart"><span class="badge top">0</span></i></a></li>
+				</ul>
+			</div><!--/.nav-collapse -->
+		</div>
+	</nav>  
+			<!-- Wrapper for slides -->
+	<div class="container-fluid">
+		<br>
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img src="datas/images/watch-1.jpg" alt="Chania">
+					<div class="container">
+			            <div class="carousel-caption">
+			              <h1>Example headline.</h1>
+			              <p>Note: If you're viewing this page via properly due to web browser security rules.</p>
+			              <h1>$235</h1>
+			              <p><a class="btn btn-lg btn-primary" href="#" role="button">SHOP NOW</a></p>
+			            </div>
+			          </div>
+				</div>
+
+				<div class="item">
+					<img src="datas/images/watch-2.jpg" alt="Chania">
+					<div class="container">
+			            <div class="carousel-caption">
+			              <h1>Example headline.</h1>
+			              <p>might not load/display properly due to web browser security rules.</p>
+			              <h1>$654</h1>
+			              <p><a class="btn btn-lg btn-primary" href="#" role="button">SHOP NOW</a></p>
+			            </div>						
+		          	</div>
+				</div>
+			
+				<div class="item">
+					<img src="datas/images/watch-3.jpg" alt="Flower">
+					<div class="container">
+			            <div class="carousel-caption">
+			              <h1>Example headline.</h1>
+			              <p>Note: If you're viewing  to web browser security rules.</p>
+			              <h1>$345</h1>
+			              <p><a class="btn btn-lg btn-primary" href="#" role="button">SHOP NOW </a></p>
+			            </div>						
+		          	</div>
+				</div>
+
+				
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div><br>
+	</div><br>	
+	<div class="container">		
+		<!-- Selling Box strats......here -->
+		<div class="box">
+			<h3>Best Selling items</h3>
+			<div class="box-items">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 box-item text-center">
+							<div class="iconss">
+								<div class="row">
+									<div class="col-md-6">
+										<p class="buy">Sale</p>
+									</div>
+									<div class="col-md-6 text-right">
+										<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+									</div>
+									<div class="col-md-6 text-right">
+										<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img src="datas/images/mobile-3.jpg" class="img-responsive">
+							</div>
+							<h3>Nokia</h3>
+							<h1>$25</h1>
+							<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+						</div>
+						<div class="col-md-3 col-sm-6 box-item text-center">
+							<div class="iconss">
+								<div class="row">
+									<div class="col-md-6">
+										<p class="buy">Sale</p>
+									</div>
+									<div class="col-md-6 text-right">
+										<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+									</div>
+									<div class="col-md-6 text-right">
+										<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img src="datas/images/mobile1.png" class="img-responsive">
+							</div>
+							<h3>iPhone 5s</h3>
+							<h1>$25 <s>$35</s></h1>
+							<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+						</div>
+						<div class="col-md-3 col-sm-6 box-item text-center">
+							<div class="iconss">
+								<div class="row">	
+									<div class="col-md-6">
+									<p class="featured">Featured</p>
+									</div>
+									<div class="col-md-6 text-right">
+									<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+									</div>
+									<div class="col-md-6 text-right">
+									<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img src="datas/images/mobile3.png" class="img-responsive">
+							</div>
+							<h3>BlackBerry</h3>
+							<h1>$25</h1>
+							<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+						</div>
+						<div class="col-md-3 col-sm-6 box-item text-center">
+							<div class="iconss">
+								<div class="row">	
+									<div class="col-md-6">
+									<p class="featured">Featured</p>
+									</div>
+									<div class="col-md-6 text-right">
+									<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+									</div>
+									<div class="col-md-6 text-right">
+									<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+									</div>
+								</div>
+							</div>
+							<div>
+								<img src="datas/images/mobile-2.jpg" class="img-responsive">
+							</div>
+							<h3>Sony</h3>
+							<h1>$25</h1>
+							<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="ipad">
+				<div class="col-md-6 col-sm-6 col-xs-6 ">
+					<img src="datas/images/ipad.jpg">
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<h1><b>Sesame Smart Lock</b><br>
+					is designed for those who do</h1>
+					<p><a class="btn btn-lg btn-primary" href="#" role="button">SHOP NOW!</a></p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<!-- Box-2... -->
+		<div class="row">
+			<div class="col-md-12 col-sm-6">
+				<div class="box">
+					<h3>Smart Gadgets on Sale</h3>
+					<div class="box-items">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">
+										<div class="row">
+											<div class="col-md-6">
+											<p class="buy">Sale</p>
+											</div>
+											<div class="col-md-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+											</div>
+											<div class="col-md-6 col-md-offset-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile-3.jpg" class="img-responsive">
+									</div>
+									<h3>Nokia</h3>
+									<h1>$25</h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">
+										<div class="row">
+											<div class="col-md-6">
+											<p class="buy">Sale</p>
+											</div>
+											<div class="col-md-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+											</div>
+											<div class="col-md-6 col-md-offset-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile1.png" class="img-responsive">
+									</div>
+									<h3>iPhone 5s</h3>
+									<h1>$25 <s>$35</s></h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">
+										<div class="row">
+											<div class="col-md-6">
+											<p class="featured">Featured</p>
+											</div>
+											<div class="col-md-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+											</div>
+											<div class="col-md-6 col-md-offset-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile3.png" class="img-responsive">
+									</div>
+									<h3>BlackBerry</h3>
+									<h1>$25</h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">
+										<div class="row">
+											<div class="col-md-6">
+											<p class="featured">Featured</p>
+											</div>
+											<div class="col-md-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+											</div>
+											<div class="col-md-6 col-md-offset-6 text-right">
+											<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+											</div>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile-2.jpg" class="img-responsive">
+									</div>
+									<h3>Sony</h3>
+									<h1>$25</h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- End Box-2... -->
+		<br>
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<div class="img-box">
+					<img src="datas/images/smartb.jpg" class="img-responsive">
+					<h1><b>Sesame Smart Lock</b><br>
+					is designed for those who do</h1>
+					<p><a class="btn btn-lg btn-primary" href="#" role="button">SHOP NOW!</a></p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<div class="img-box">
+					<img src="datas/images/lock1.jpg" class="img-responsive">
+					<h1><b>Sesame Smart Lock</b><br>
+					is designed for those who do</h1>
+					<p><a class="btn btn-lg btn-primary" href="#" role="button">SHOP NOW!</a></p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<!-- New gadgets Box-3..... -->
+		<div class="row">
+			<div class="col-md-12">
+				<div class="box">
+					<h3>New Gadgets on Sale</h3>
+					<div class="box-items">
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">									
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+										</div>
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile-3.jpg" class="img-responsive">
+									</div>
+									<h3>Nokia</h3>
+									<h1>$25</h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">									
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+										</div>
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile1.png" class="img-responsive">
+									</div>
+									<h3>iPhone 5s</h3>
+									<h1>$25 <s>$35</s></h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+										</div>
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile3.png" class="img-responsive">
+									</div>
+									<h3>BlackBerry</h3>
+									<h1>$25</h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+								<div class="col-md-3 col-sm-6 box-item text-center">
+									<div class="iconss">
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-heart"></i></a>
+										</div>
+										<div class="text-right">
+										<a href="#"><i class="glyphicon glyphicon-ok"></i></a>
+										</div>
+									</div>
+									<div>
+										<img src="datas/images/mobile-2.jpg" class="img-responsive">
+									</div>
+									<h3>Sony</h3>
+									<h1>$25</h1>
+									<a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- End Gadgets Box-3 -->
+		<br>
+		<!-- Blog Box-4 -->
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="box container">
+					<div>
+						<h3>From The Blog</h3>
+					</div>
+					<hr>
+					<div class="blog-box text-center">
+						<div class="row">
+							<div class="col-md-4 col-sm-4">
+								<img src="datas/images/smart-tv.jpg" class="img-responsive">
+								<h4>New Technology,Smart home,Smaart Texhnology</h4>
+								<h2>Lorem Ipsum is simply dummy text of the printing</h2>
+								<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<img src="datas/images/smart-watch.jpg" class="img-responsive">
+								<h4>New Technology,Smart home,Smaart Texhnology</h4>
+								<h2>Lorem Ipsum is simply dummy text of the printing</h2>
+								<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<img src="datas/images/smartwatch.jpg" class="img-responsive">
+								<h4>New Technology,Smart home,Smaart Texhnology</h4>
+								<h2>Lorem Ipsum is simply dummy text of the printing</h2>
+								<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+								<a href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		<!-- End blog box-4 -->
+		<br><br>
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="box">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<h3>COMPUTING</h3>
+							<div class="link-box">
+								<ul>
+									<li><a href="#">Laptops</a></li>
+									<li><a href="#">Moniters</a></li>
+									<li><a href="#">Chromebooks</a></li>
+									<li><a href="#">All in One PCs</a></li>
+									<li><a href="#">Printers</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<img src="datas/images/desktop.jpg" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="box">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<h3>TVS</h3>
+							<div class="link-box">
+								<ul>
+									<li><a href="#">4K SUHD Tvs</a></li>
+									<li><a href="#">5K SUHD TVs</a></li>
+									<li><a href="#">LEDs</a></li>
+									<li><a href="#">All in One PCs</a></li>
+									<li><a href="#">LCDs</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<img src="datas/images/tv.jpg" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="box">
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<h4>PHONES</h4>
+							<div class="link-box">
+								<ul>
+									<li><a href="#">Cell Phones</a></li>
+									<li><a href="#">Prepiad</a></li>
+									<li><a href="#">Andriod</a></li>
+									<li><a href="#">Windows</a></li>
+									<li><a href="#">New Cell Phones</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<img src="datas/images/phones.png" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><br><br>
+		<div class="row">
+			<div class="col-md-12 box-follow">
+				<h3>Fllow Us</h3><hr><br>
+				<div class="text-center">
+					<h4><b>Buying Smart Gadgets is a Smart Thing To Do!</b></h4>
+					<h4>Just sign up for our Discounts Club & get a complimentary 10% off for your first order</h4>
+					<form>
+						<input type="email" name="email" placeholder="Your e-mail">
+						<button type="sumbit">Subcribe</button>
+					</form><hr>
+					<div>
+						<h4><b>Social News</b></h4>
+						<h4>The latest news delivered across all social networks!</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><br><br>
+	<footer class="footer">
+		<div class="container-fluid">
+			<div class="row" id="footer-bar">
+				<div class="col-md-3 col-sm-6">
+					<ul>
+						<div class="browse-box">
+							<h3>Browse</h3>
+							<li>
+								<a href="#">Fitness Tracker</a>
+							</li>
+							<li>
+								<a href="#">Smart Accessories</a>
+							</li>
+							<li><a href="#">Smart Kitchen Appliances</a></li>
+							<li><a href="#">Smart Locks and Keys</a></li>
+							<li><a href="#">Smart TVs</a></li>
+							<li><a href="#">Smart Watches</a></li>
+						</div>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<aside class="recent_posts">
+						<h3>Recent posts</h3>
+						<div class="inner-box">
+							<div class="row">	
+								<div class="col-md-12 col-sm-12">
+									<div class="box-box row">
+										<div class="col-md-6 col-sm-6">
+											<img src="datas/images/phones-1.jpg" class="img-responsive">
+										</div>
+										<div class="col-md-6 col-sm-6">
+											<a href="#">Revolutionary Technology</a>
+											<a href="#"><h4>These smart GPS</h4></a>	
+										</div>
+									</div>
+								</div>
+							</div>						
+						</div>
+						<div class="inner-box">
+							<div class="row">	
+								<div class="col-md-12 col-sm-12">
+									<div class="box-box row">
+										<div class="col-md-6 col-sm-6">
+											<img src="datas/images/phones-1.jpg" class="img-responsive">
+										</div>
+										<div class="col-md-6 col-sm-6">
+											<a href="#">Revolutionary Technology</a>
+											<a href="#"><h4>These smart GPS</h4></a>	
+										</div>
+									</div>
+								</div>		
+							</div>			
+						</div>
+						<div class="inner-box">
+							<div class="row">	
+								<div class="col-md-12 col-sm-12">
+									<div class="box-box row">
+										<div class="col-md-6 col-sm-6">
+											<img src="datas/images/phones-1.jpg" class="img-responsive">
+										</div>
+										<div class="col-md-6 col-sm-6">
+											<a href="#">Revolutionary Technology</a>
+											<a href="#"><h4>These smart GPS</h4></a>	
+										</div>
+									</div>
+								</div>
+							</div>				
+						</div>
+					</aside>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<aside class="about_us">
+						<h3>About Us</h3>
+						<div class="about-box">
+							<img src="datas/images/about.jpg" class="img-responsive">
+							<p>We are the biggest smart gadgets retailer in the whole of South Dakota and the Midwest. Our lineup ranges from smart watches and fitness trackers to smart kitchen appliances.</p>
+						</div>
+					</aside>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<h3>Facebook</h3>
+					<div class="face-book">
+						<img src="datas/images/facebk.png" class="img-responsive">
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="footer-conatiner">
+			<div class="footer-copyright text-center">
+				<span class="sitename">SmartHouse</span>
+				 is proudly powered by WordPress Entries (RSS) and Comments (RSS) 
+				 <a href="#" class="privacy_link" >Privacy Policy</a>
+			</div>
+		</div>
+    </footer>
+		
+
+		 <!-- GoogleApi jQuery -->
+		<script type="text/javascript" src="datas/js/jquery.min.js"></script>
+		<!-- Bootstrap Core JavaScript -->
+		<script src="datas/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

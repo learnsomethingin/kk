@@ -1,0 +1,186 @@
+*{
+	text-decoration: none;
+}
+
+section{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*.../Top nav*/
+.nav-top{
+	border-bottom: 1px solid rgba(0,0,0,0.08);
+	min-height: 50px;
+	line-height: 50px;
+}
+.nav-top a{
+	color: #000;
+	text-decoration: none;
+}
+.nav-top a:hover{
+	color: red;
+}
+/*/...End top nav*/
+/*.../Main nav*/
+.navbar-default{
+	background: #fff;	
+}
+.navbar-default .navbar-nav>.active>a{
+	background: transparent;
+	color: red;
+}
+.navbar-header .navbar-brand{
+	padding-top: 25px;
+	font-size: 3em;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a:hover, {
+    color: red;
+    background-color: transparent;    
+}
+.navbar-default .dropdown-toggle .caret{
+	color: red;
+}
+.nav>li>a{
+	padding: 2em;
+}
+.dropdown:hover .dropdown-menu {
+	display: block;
+	margin-top: 0; // remove the gap so it doesn't close
+}
+.navbar-default .navbar-nav>li>a {
+    font-weight: 700;
+    font-style: italic;
+}
+.navbar-default .navbar-right a i{
+	background: #c2c2c2;
+    color: #fff;
+    height: 23px;
+    width: 23px;
+    text-align: center;
+    border-radius: 100px;
+    padding-top: 4px;
+}
+.navbar-default .navbar-right a{
+	padding-left: 0;
+}
+.navbar-default .navbar-right a:hover i{
+	background: #000;
+}
+.navbar-default .navbar-right a .fa-shopping-cart{
+	background: transparent;
+	color: #000;
+	font-size: 20px;
+}
+/*/...Main nav Ends here...*/
+
+
+
+
+
+/*.../Panel line*/
+.products {
+    overflow: hidden;
+    display: -webkit-box;
+}
+.panel-default .panel-heading{
+	background: transparent;
+}
+.panel-body .product{
+	border-right: 1px solid#ccc;
+}
+.panel-body .product:last-child {
+	border-right: 0;
+}
+.products .product{
+	padding: 15px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+    /*...product-price*/
+.product-price .currency {
+    display: inline-flex;
+}
+.product .product-price i, .product .product-price h4{
+	float: left;
+	margin: 0;
+	margin-left: 5px;
+	color: rgba( 255, 145, 150, 1);
+
+}
+.product .product-price {
+	margin: 20px auto;
+}
+/*/......End Panel line*/
+
+/*sesame lock*/
+.seasame{
+	background: url('../images/sesame.png') no-repeat left;
+	min-height: 400px;
+	background-position: left;
+	background-size: contain;
+}
+.seasame-content{
+	float: right;
+	margin-right: 30px;
+	padding-top: 3em;
+}
+.seasame-content h4{
+	font-size: 3em;
+}
+.seasame-content p{
+	font-size: 1.2em;	
+}
+/*..../Widgets starts here..*/
+.widgets-content{
+	position: absolute;
+}
+.widget{
+	max-height: 530px;
+	height: 530px;
+	width: 100%;
+	border-bottom: 1px solid rgba(0,0,0,1)
+	margin-bottom: 50px;
+	display: inline-block;
+}
+.widgets .widget .widget-content h3{
+	font-size: 3em;
+	margin: 0;
+}
+.widgets .widget .widget-content p{
+	font-size: 1.8em;
+	margin: 0;
+}
+.widgets .widget{
+	position: relative;
+	padding: 25px;
+	-webkit-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+	-webkit-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+}
+.widgets .widget:hover{
+	margin: -5px;
+	box-shadow: 0px 0px 25px 3px rgba(0,0,0,0.08);
+	-webkit-transition-timing-function: ease;
+	-o-transition-timing-function: ease;
+	transition-timing-function: ease;
+	-webkit-transition-duration: .3s;
+	-o-transition-duration: .3s;
+	transition-duration: .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

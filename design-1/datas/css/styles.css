@@ -113,12 +113,42 @@ aside section button{
 .text-x{
 	font-weight: 700;
 }
-.body-x .box-x1 .icon-x1{
-	font-size: 50px;
-	top: 40px;
+.sub-form{
+	background: #fff;
 }
-.body-x .box-x1 header{
-	padding-right: 130px;
-	text-align: center;
-	font-weight: 600;
+.sub-form h3{
+	padding-top: 3em;
+}
+.sub-form form{
+	padding-top: 4em;
+}
+.form-group input{
+	padding: 1em 0 1em 6em;
+    margin: 14px;
+    border-radius: 100px;  
+    border-style: none;
+    background: #F8F8F8;
+}
+.btn-s{
+	background: #425CBB;
+	border-radius: 100px;  
+    border-style: none;
+    padding: 1em 6em 1em 6em;
+    margin-bottom: 4em;
+}
+.side-form{
+	padding-top: 6em;
+}
+.image-y{
+	background-image: url('../images/img.jpg');	
+    background-size: cover;	
+	min-height: 500px;
+	height: auto;
+	background-attachment: fixed;
+	opacity: 0.5;
+	margin-top: 10em;
+}
+.down-load{
+	padding-top: 31%;
+    color: #fff;
 }
