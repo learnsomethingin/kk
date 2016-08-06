@@ -1,0 +1,155 @@
+.navbar {
+	margin-bottom: -50px;
+	position: relative;
+	background: transparent;
+}
+.rohit .rohit-img .img-responive{
+	height: 400px;
+	width: 100%;
+}
+.rohit {
+	position: relative;
+	margin-top: 30px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.header{
+	font-size: xx-large;
+	text-align: center;
+	margin: 30px 0;
+}
+.rohit .about-rohit{
+	position: absolute;
+	top: 9em;
+	opacity: 0;
+	margin-left: -8em;
+	/*display: none;*/
+	-webkit-transition: all 0.5s ease;
+	 -moz-transition: all 1.5s ease;
+	  -o-transition: all 1.5s ease;
+}
+.rohit .about-rohit h3,p{
+	font-weight: 700;	
+}
+.rohit:hover .about-rohit{
+	opacity: 1;
+	margin-left: 7em;
+	display: block;
+	-webkit-transition: all 0.5s ease;
+	 -moz-transition: all 1.5s ease;
+	  -o-transition: all 1.5s ease;
+}
+.rohit:hover img{
+	opacity: 0.2;
+}
+.message .heading{
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-left: 24px;
+}
+.message p{
+	font-size: 18px;
+    padding: 30px;
+}
+.box .icon .fa-star{
+	    border-radius: 50%;
+    padding: 14px;
+    border: 1px solid;
+    height: 3em;
+    margin: auto;
+    width: 3em;
+    margin-right: 10px;
+}
+.box .featured-title{
+	text-transform: uppercase;
+    position: relative;
+    padding-left: 75px;
+    /* font-size: 25px; */
+    height: 60px;
+    bottom: 0;
+    font-weight: 700;
+}
+.box .featured-title i{
+	margin: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 1px solid;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100%;
+}
+.box .featured-title:hover i{
+	color: #fff;
+	background: #20ddfd;
+}
+.box .content p{
+	padding-left: 75px;
+	line-height: 25px;
+    margin-bottom: 25px;
+    color: #616161;
+}
+/*............About Team startss......*/
+.members{
+	position: relative;
+	overflow: hidden;
+}
+.team-title h3{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color: #162532;
+}
+.team-title{
+	margin-bottom: 50px;
+}
+.about-team h3{
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 18px;
+	    -webkit-transition: all 0.4s;
+}
+.mem-social{
+	margin-bottom: 30px;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+.mem-social a{
+	margin-right: 10px;
+}
+.member-data {
+    position: absolute;
+    top: 7em;
+    left: -12em;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+	 -moz-transition: all 1.5s ease;
+	  -o-transition: all 1.5s ease;
+}
+.member-data h4{
+	font-size: x-large;
+	color: #656565;
+}
+.members:hover .member-data{
+	top: 7em;
+	left: 3em;
+	opacity: 1;
+	-webkit-transition: all 0.5s ease;
+	 -moz-transition: all 1.5s ease;
+	  -o-transition: all 1.5s ease;
+}
+.member-pic{
+	-webkit-transition: all 0.5s ease;
+	 -moz-transition: all 1.5s ease;
+	  -o-transition: all 1.5s ease;
+}
+.members:hover .member-pic{
+	    transform: scale(1.1, 1.1);
+	    opacity: 0.1;
+	    -webkit-transition: all 0.5s ease;
+	 -moz-transition: all 1.5s ease;
+	  -o-transition: all 1.5s ease;
+}
